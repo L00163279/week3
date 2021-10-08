@@ -43,6 +43,8 @@ if __name__ == "__main__":
     student1_details = [student1 , lnumbers[0] , module_list[0]]
     student2_details = [student2 , lnumbers[1] , module_list[1]]
 
+    print(student1_details , student2_details)
+
 
 
 
