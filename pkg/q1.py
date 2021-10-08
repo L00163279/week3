@@ -52,8 +52,8 @@ if __name__ == "__main__":
 
     # read grades of the student
 
-    student1_grade = input("enter student1 grade {} {}". format(module_list))
-    student2_grade = input("Enter student2 grade {} {}".format(module_list))
+    student1_grade = input("enter student1 grade {} ".format(module_list))
+    student2_grade = input("Enter student2 grade {} ".format(module_list))
 
 
 
