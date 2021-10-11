@@ -34,36 +34,23 @@
 
 if __name__ == "__main__":
 
-    # tuple data
+    #tuple for student Lnumbers
+    lnumbers = ("L1234" , "L4321")
 
-    lnumbers = ("L12345" , "L54321")
+    #list for module subjects
+    modules_subjects = ["java programming" , "python scripting"]
 
-    #module list data
+    #dictionary for grades
+    grades1 = {"java programming" : {"L1234" : 50, "L4321" : 56}}
+    grades2 = {"python scripting" : {"L1234" : 45 , "L4321" : 65 }}
 
-    module_list = ["java_programming" , "python_scripting"]
-
-    student1 = {"L12345":module_list}
-    student2 = {"L54321":module_list}
-
-    print(student1)
-    print(student2)
-
-
-
-    # read grades of the student
-
-    student1_grade = input("enter student1 grade {} ".format(module_list))
-    student2_grade = input("Enter student2 grade {} ".format(module_list))
+    #print grades for each subjects
+    print("The mark obtained in java programming is : {}".format(grades1["java programming"]))
+    print("The mark obtained in python scripting is : {}" .format(grades2["python scripting"]))
 
 
 
-    #creating dictionary for students
 
-
-    student1_details = {lnumbers[0] , student1_grade , module_list[0]}
-    student2_details = {lnumbers[1] , student2_grade , module_list[1]}
-
-    print(student1_details , student2_details)
 
 
 
